@@ -7,11 +7,11 @@ def main():
     print(f"Camper's Name: {first} {last}")
 
     #Variable: birth Prompt: In what year was {first} {last} born:
-    birth = input("In what year was {first} {last} born: ")
+    birth = input(f"In what year was {first} {last} born: ")
     print(f"Birth Year: {birth}")
 
     #Variable: days Prompt: How many days will {first} attend?
-    days = input("How many days will {first} attend: ")
+    days = input(f"How many days will {first} attend: ")
     print(f"Camp Duration: {days} days")
 
     #Variable: p_first Prompt: Parent's First Name:
